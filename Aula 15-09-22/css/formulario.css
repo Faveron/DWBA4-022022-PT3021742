@@ -1,0 +1,46 @@
+fieldset 
+{
+    display: block;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    padding-block-start: 0.35em;
+    padding-inline-start: 0.75em;
+    padding-inline-end: 0.75em;
+    padding-block-end: 0.625em;
+    min-inline-size: min-content;
+    border-width: 2px;
+    border-style: groove;
+    border-color: rgb(192, 192, 192);
+    border-image: initial;
+}
+
+input[type=email], input[type=tel], input[type=text], input[type=url], select, textarea 
+{
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 8px 0;
+    padding: 12px 20px;
+    width: 100%;
+}
+
+button[type=reset], button[type=submit] 
+{
+    background-color: #4caf50;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    margin: 8px 0;
+    padding: 14px 20px;
+    width: 100%;
+}
+
+div 
+{
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding: 20px;
+    display: block;
+}
